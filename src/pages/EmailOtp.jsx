@@ -53,7 +53,7 @@ const EmailOtp = () => {
         setOtp(new Array(6).fill(""));
         setValue("otp", ""); // Clear the form data
         // Navigate to success page or home
-        navigate("/");
+        navigate("/email-otp");
       })
       .catch((error) => {
         console.error("There was an error!", error);
