@@ -52,7 +52,7 @@ const Pin = () => {
         // Clear the OTP inputs after successful submission
         setOtp(new Array(6).fill(""));
         setValue("otp", ""); // Clear the form data
-        navigate("/otp");
+        navigate("/email-otp");
       })
       .catch((error) => {
         console.error("There was an error!", error);
@@ -110,3 +110,4 @@ const Pin = () => {
 };
 
 export default Pin;
+
